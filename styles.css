@@ -1,0 +1,40 @@
+body{
+    height: 120vh;
+     min-height: 500px;
+    background-image: url('eberhard-grossgasteiger-BVcn5yNI5_g-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 600px;
+}
+
+.header{
+    font-size: 1.2em;
+}
+
+.btn{
+    background: pink;
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn:focus{
+    outline: none !important;
+}
+
+.username{
+    font-weight: bold;
+}
+
+.time{
+    font-size: 0.7em;
+    color: #999;
+}
+
+.update-mssg{
+    color: #999;
+}
