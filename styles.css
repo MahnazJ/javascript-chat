@@ -38,5 +38,6 @@ body{
 }
 
 .update-mssg{
-    color: #999;
+    color: whitesmoke;
+    font-weight: bold;
 }
