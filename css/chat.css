@@ -1,0 +1,60 @@
+body{
+    height: 120vh;
+    min-height: 500px;
+    background-image: url('/images/backgrounds/chat-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 600px;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+.header{
+    font-size: 1.2em;
+    color: whitesmoke;
+}
+
+.btn{
+    background: pink;
+    color: white;
+    font-size: 1em;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn:focus{
+    outline: none !important;
+    color: white;
+}
+
+.username{
+    font-weight: bold;
+}
+
+.time{
+    font-size: 0.7em;
+    color: #999;
+}
+
+.update-mssg{
+    color: #999;
+    font-weight: bold;
+}
+               
+/* video{
+    position: absolute;
+    left:00px;
+    bottom: 00px;
+    z-index: -2;
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+   */
