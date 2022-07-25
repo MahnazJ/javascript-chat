@@ -43,7 +43,7 @@ html, body {
   }
   
   .key {
-    border: .4rem solid rgb(22, 20, 185);
+    border: .4rem solid rgb(59, 58, 107);
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
@@ -52,13 +52,13 @@ html, body {
     width: 10rem;
     text-align: center;
     color: white;
-    background: rgba(130, 14, 23, 0.4);
+    background: rgba(26, 1, 44, 0.4);
     text-shadow: 0 0 .5rem rgb(42, 120, 194);   
   }
   
   .playing {
     transform: scale(1.1);
-    border-color: #037a1c;
+    border-color: #4b0f79;
     box-shadow: 0 0 1rem #2b12b6;
   }
   
@@ -71,7 +71,7 @@ html, body {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #2819d4;
+    color: #e1e0ed;
   }
 
   video {
