@@ -4,21 +4,33 @@ html, body {
   overflow: hidden
 }
   
+.nav-text{
+  color:rgb(81, 81, 81);
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.nav-text:hover{
+  color: rgb(156, 153, 153);
+}
+
   .keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
+    min-height: 50vh;
     align-items: center;
     justify-content:center;
   }
 
-  h1{
+  .text {
+    font-size: 2.5em;
     color:rgb(81, 81, 81);
   }
 
-p{
-    font-weight: bold;
-    color:rgb(81, 81, 81);
+  p.text {
+    font-size: 1em;
+    font-weight: bolder;
+    color: rgb(81, 81, 81);
   }
   
   .key {
@@ -53,7 +65,7 @@ p{
     color: #2819d4;
   }
 
-  video{
+  video {
     position: absolute;
     left:00px;
     bottom: 00px;
