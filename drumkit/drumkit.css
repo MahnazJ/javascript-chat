@@ -1,7 +1,9 @@
 html, body {
   margin: 0; 
   height: 100%; 
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
 }
   
 .nav-text{
@@ -77,6 +79,13 @@ html, body {
     min-width: 100%;
     min-height: 100%;
 }
+
+/* @media(max-width: 767px){
+  .key {
+    margin-bottom: 10%;
+
+  }
+} */
 
 @media (min-aspect-ratio: 16/9){
   video{
