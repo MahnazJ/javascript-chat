@@ -6,14 +6,19 @@ html, body {
 
 .welcome {
     position: relative;
+    color:rgb(196, 222, 244);
     margin-top:15%;
     margin-left:10%;
     width: 40%;
 }
 
+.welcome:hover {
+    filter:hue-rotate(50deg);
+}
+
 .btn {
     background-color:rgb(7, 7, 118);
-    color: #999;
+    color:rgb(196, 222, 244);
 }
 
 .btn:hover {
@@ -21,7 +26,7 @@ html, body {
 }
 
 video {
-    position: absolute;
+    position: fixed;
     left:00px;
     bottom: 00px;
     z-index: -2;
@@ -31,3 +36,26 @@ video {
     min-height: 100%;
 }
 
+@media (min-aspect-ratio: 16/9){
+  video{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9){
+  video{
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px){
+  video{
+    display:none;
+  }
+  body{
+    background: url(/images/smoke.jpg);
+    background-size:cover;
+  }
+}
